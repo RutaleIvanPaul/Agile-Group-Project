@@ -4,23 +4,24 @@ class User:
     password = None
     lastlogin = None
     level = None
+    status = None
 
-    def createAccount(username,password,level){
+    def createAccount(self,username,password,level):
         pass
-    }
+    
 
-    def login(username,password){
+    def login(self,username,password):
         pass
-    }
+    
 
-    def createComment(message,timestamp,Author,parentcomment){
+    def createComment(self,message,timestamp,Author,parentcomment):
         pass
-    }
+    
 
-    def editComment(commentid){
+    def editComment(self,commentid):
         pass
-    }
+    
 
-    def logout(userid){
+    def logout(self,userid):
         pass
-    }
+    
